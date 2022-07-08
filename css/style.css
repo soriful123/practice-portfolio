@@ -1,0 +1,325 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: Arial, sans-serif; */
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: space-evenly;
+    background-color: #1717ad;
+}
+
+.logo {
+    padding: 15px;
+
+
+}
+
+
+.logo img {
+    width: 70%;
+}
+
+.nav-links {
+    padding: 25px;
+}
+
+.nav-links a {
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    text-decoration: none;
+
+}
+
+.nav-links a:hover {
+    color: #9e0cf2;
+    transition: .7s;
+}
+
+
+.get-started {
+    padding: 25px;
+}
+
+.get-started a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+/* ---------top banner csss
+------------- */
+
+
+.top-banner {
+    display: flex;
+
+}
+
+.half-width {
+    width: 50%;
+    padding: 7%;
+}
+
+.half-width img {
+    width: 100%;
+    margin-left: -120px;
+}
+
+
+.half-width h2 {
+    color: #9e0cf2;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.half-width h1 {
+    margin-top: -5px;
+    font-size: 50px;
+    color: rgb(14, 34, 120);
+
+    font-weight: 300;
+}
+
+.half-width p {
+    font-size: 20px;
+    margin-top: -5px;
+    line-height: 30px;
+    font-weight: 100;
+
+
+}
+
+.button {
+    text-decoration: none;
+    /* background-color: #1717ad; */
+    padding: 22px 100px;
+    font-size: 20px;
+    border-radius: 40px;
+    color: white;
+    font-weight: 100;
+    background-color: rgb(30, 74, 255);
+
+
+}
+
+
+/*-------------
+ learn and skill option css-
+ -------------- */
+
+
+.skill-title h1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: -20px;
+    font-weight: 100;
+    font-size: 45px;
+    color: #3d3d74f1;
+}
+
+.learn-skill {
+    display: flex;
+    width: 80%;
+    margin: 10%;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+.skill img {
+    width: 50%;
+
+}
+
+
+.skill p {
+    font-size: 22px;
+    font-weight: 500;
+    color: #9e0cf2;
+    margin-bottom: 100px;
+}
+
+/*----- mentor option css---- */
+
+.mentor {
+    display: flex;
+    background-color: #3d3d740e;
+}
+
+.practice {
+    width: 50%;
+    padding: 10%;
+}
+
+.practiceh2 {
+    font-size: 20px;
+    color: #9e0cf2;
+}
+
+.practice h1 {
+    font-size: 40px;
+    color: #20208ac7;
+}
+
+.practice p {
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+.practice-image {
+    width: 50%;
+    margin-top: 30px;
+
+}
+
+.practice-image img {
+    width: 100%;
+    margin-left: -30px;
+    margin-bottom: 100px;
+
+
+}
+
+
+
+
+/* -----instructor option css------
+--
+
+----- -----------------------*/
+.attendend {
+    margin-top: 200px;
+}
+
+.attendend-title h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #44145fb6;
+    margin-bottom: 70px;
+}
+
+.instuctor {
+    display: flex;
+    width: 60%;
+    padding: 10px;
+    background-color: #3d3d740e;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.jack {
+    width: 20%;
+    padding: 30px;
+}
+
+.instuctor img {
+    width: 100px;
+}
+
+.jack-info {
+    width: 80%;
+}
+
+.jack-info p {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.jack-info h2 {
+    color: rgb(134, 89, 89);
+    font-size: 20px;
+}
+
+
+
+
+/* ---more leads css----- */
+
+.container {
+    width: 100%;
+    height: 80vh;
+    background-color: #1717ad;
+}
+
+.container-title {
+    text-align: center;
+    padding-top: 80px;
+    margin-bottom: 90px;
+    font-size: 50px;
+    color: white;
+    font-weight: 300;
+
+}
+
+
+.pera-sala {
+    display: flex;
+    height: 60vh;
+    justify-content: space-evenly;
+}
+
+.blus {
+    background-color: #11345c81;
+    width: 30%;
+    height: 60%;
+    border-radius: 5px;
+
+}
+
+.blus-pera {
+    padding: 20px;
+    text-align: center;
+}
+
+.blus-pera h1 {
+    font-size: 30px;
+    color: white;
+}
+
+.blus-pera h3 {
+    color: white;
+    margin-bottom: 40px;
+}
+
+.blus-pera a {
+    text-decoration: none;
+    color: black;
+    padding: 20px 70px;
+    border-radius: 40px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 50px;
+
+}
+
+
+
+
+/* -----footer option css----- */
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 150px;
+    margin-top: 100px;
+}
+
+.footer p {
+    text-align: center;
+    padding: 58px;
+    color: rgb(77, 47, 47);
+    align-items: center;
+
+
+
+}
